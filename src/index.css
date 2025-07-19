@@ -1,13 +1,24 @@
+/* Global body styling */
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5; /* Soft neutral background */
+  color: #1a1a1a; /* Enhanced text contrast */
+  line-height: 1.6;
+  font-size: 16px;
 }
 
+/* Style for <code> blocks */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background-color: #eef1f5;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  color: #d6336c; /* Slightly colored to make code stand out */
+  font-size: 0.95em;
 }
